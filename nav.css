@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 182, 182);
+}
+
+nav{
+    width: max-content;
+}
+section{
+    height: max-content;
+    width: max-content;
+    position: absolute;
+    top: 0;
+    left:4.1em;
+    
+}
+header{
+    background-color: #9eede5;
+}
+
+i{
+    height: max-content;
+}
+.nav{
+    display: flex;
+   
+}
+.fa-file{
+    color:#4285f4;
+    font-size:60px;
+    padding: 10px 20px;
+}
+.heading{
+    color: rgba(235, 189, 189, 0.751);
+    height: max-content;
+    padding: 10px 20px;
+  
+}
+
+.fa-star,.fa-google-drive,.fa-circle-info,.fa-check{
+    color: rgba(241, 184, 184, 0.751);
+    height: max-content;
+    padding: 10px 20px;
+}
+
+
+ol{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+li{
+   font-size: large;
+   font-weight: bolder;
+}
+
+li:hover,i:hover,h1:hover{
+    cursor: pointer;
+}
